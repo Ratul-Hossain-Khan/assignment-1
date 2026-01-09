@@ -45,11 +45,26 @@ background-color: #469165;
   font-weight: semi-bold;
   color: white;
   cursor: pointer;
+}
+
+.section-heading{
+  max-width: 1360px;
+  text-align: center;
 
 }
 
+.section-heading h2{
+font-size: 48px;
+margin-bottom: 16px;
+}
 
-
+.section-heading p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+ 
 /*main styles*/
 
 header{
@@ -62,8 +77,16 @@ header{
 
 }
 
-nav
-{
+nav{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 0px 0px;
+}
+
+nav .nav-container{
   background-color: white;
   width: 85%;
   max-width: 1350px;
@@ -71,10 +94,8 @@ nav
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
-  
 }
+
 
 nav .menu{
   list-style: none;
@@ -119,4 +140,57 @@ color: white;
 margin-bottom: 20px 0;
 padding-top: 20px;
 padding-bottom: 20px;
+m
 }
+
+/* about section styles*/
+
+
+#about .about-container{
+  width: 85%;
+  max-width: 1600px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+}
+
+
+
+#about .about-container .about-info{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+#about .about-container .about-info .about-card{
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: left;
+  width: 100%;
+  text-align: center;
+}
+
+#about .about-container .about-info .about-card h4{
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+#about .about-container .about-info .about-card p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.btn-about {
+  background-color: #F95555;
+  border: none;
+  padding: 12px 13px;
+  border-radius: 1000px;
+}
+
