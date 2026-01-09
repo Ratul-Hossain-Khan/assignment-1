@@ -34,18 +34,28 @@
   font-weight: semi-bold;
   color: #469165;
   cursor: pointer;
+  vertical-align: middle;
+}
+.primary img{
+  margin-right: 2px;
+  vertical-align: middle;
 }
 
-.btn btn-primary{
-background-color: #469165;
-  border: none;
-  padding: 16px 16px;
-  border-radius: 4px; 
-  font-size: 16px;
-  font-weight: semi-bold;
-  color: white;
-  cursor: pointer;
+
+
+.btn-primary img{
+  margin-left: 8px;
+  vertical-align: middle;
 }
+
+.btn-primary-1 img{
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.ready-container img{
+  margin-left: 10px;
+} 
 
 .section-heading{
   max-width: 1360px;
@@ -243,5 +253,101 @@ m
   line-height: 40px;
   font-weight: semi-bold;
   color: #000;
+}
+
+/* ready section styles*/
+
+#ready{
+  margin-bottom: 100px;
+}
+
+.ready-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 12px;
+}
+
+.ready-container h2{
+  font-size: 36px;
+  margin-bottom: 0px;
+} 
+
+.ready-container p{
+  max-width: 800px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+  color: #627382;
+}
+.ready-container button{ 
+  margin-top: 30px;
+  padding: 16px 32px;
+}
+
+/* footer styles*/
+
+.footer-container{
+  width: 85%;
+  max-width: 1600px;
+  margin: 0px auto;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #001931;
+} 
+
+.footer-content{
+  max-width: 1360px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding-bottom: 80px;
+}
+
+.footer-content p{
+  color: white;
+  font-size: 16px;
+}
+
+.footer-content img{
+  cursor: pointer;
+}
+
+.footer-bottom{
+  max-width: 1360px;
+  margin: 0px auto;
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #627382;
+  padding-top: 20px;
+}
+
+.footer-bottom p{
+  color: white;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.footer-social p{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.social-links{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 110px;
 }
 
