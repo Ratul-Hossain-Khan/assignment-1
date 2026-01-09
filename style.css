@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* shared style*/
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+.color-orenge {
+  color: #469165;
+}
+
+.btn {
+  background-color: #469165;
+  border: none;
+  padding: 11px 16px;
+  border-radius: 4px; 
+  font-size: 16px;
+  font-weight: semi-bold;
+  color: white;
+  cursor: pointer;
+}
+
+.primary {  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 1000px; 
+  font-size: 16px;
+  font-weight: semi-bold;
+  color: #469165;
+  cursor: pointer;
+}
+
+.btn btn-primary{
+background-color: #469165;
+  border: none;
+  padding: 16px 16px;
+  border-radius: 4px; 
+  font-size: 16px;
+  font-weight: semi-bold;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+
+/*main styles*/
+
+header{
+ 
+  background-image: url("images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 125px;
+  padding-top: 25px;
+
+}
+
+nav
+{
+  background-color: white;
+  width: 85%;
+  max-width: 1350px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  
+}
+
+nav .menu{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav .menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#banner{
+  padding-top: 92px;
+}
+
+#banner .banner-content{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0px auto;
+  padding: 0 100px;
+  text-align: center;
+}
+
+#banner .banner-content h1{
+font-size: 70px;
+font-weight: semi-bold;
+color: white;
+}
+
+.color-green {
+  color: #30B868;
+}
+
+
+#banner .banner-content p{
+font-size: 18px;
+font-weight: regular;
+color: white;
+margin-bottom: 20px 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
